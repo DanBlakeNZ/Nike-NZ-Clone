@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- My CSS Stylesheet-->
+        <link rel="stylesheet" type="text/css" href="stylesheets/css.css">
+
+        <title>Nike Official Site. Nike.com (NZ)</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    </head>
+
+
+  <body>
+      
+      <div id="page-wrapper">
+          
+        <nav id="desktop-nav">
+                  <div id="navigation-container">
+                      <div id="top-nav-container">
+                          <ul id="left-nav">
+                              <li><a href="#">Nike</a></li>
+                              <li><a href="#">Nike+</a></li>
+                              <li id="jumpman-logo"></li>
+                          </ul>
+                          <ul id="right-nav">
+                              <li id="join"><a href="#">Join/Log In To Nike+ Account</a></li>
+                              <li id="help"><a href="#">Help</a></li>
+                              <li><a href="#"><i class="fa fa-shopping-cart" id="shopping-cart-desktop" aria-hidden="true"></i></a></li>
+                              <li><a href="#"><img src="assets/images/nz_sml.png" id="flag"></a></li>
+                          </ul>
+                      </div>             
+                      <div id="main-nav-container">
+                          <div id="swoosh-container"></div>  
+                          <ul id="main-menu">
+                              <li><a href="#"></a>Men</li>
+                              <li><a href="#"></a>Women</li>
+                              <li><a href="#"></a>Boys</li>
+                              <li><a href="#"></a>Girls</li>
+                              <li><a href="#"></a>Customise</li>
+                          </ul>
+                          <div id="search-container">
+                              <input type="text" placeholder="Search" id="search-box" data-role="none">
+                              <label for="search-box">
+                                  <i class="fa fa-search" id="search-desktop" aria-hidden="true"></i>
+                              </label>
+                          </div>
+                      </div>
+                  </div>
+</nav>
+
+        <nav id="mobile-nav">
+
+              <header id="mobile-nav-container">
+
+                      <div id="swoosh-mobile"></div>
+
+                      <div id="mobile-nav-right">
+
+                          <button id="mobile-button" data-role="none">
+                            <div class="icon-bar"></div>
+                            <div class="icon-bar" id="middle-bar"></div>
+                            <div class="icon-bar"></div>
+                        </button>
+
+                          <i class="fa fa-shopping-cart" id="shopping-cart-mobile" aria-hidden="true"></i>
+
+                          <i class="fa fa-search" id="search-mobile" aria-hidden="true"></i>
+                    </header>  
+</nav>
+
+        <div class="mobile-modal" id="search-modal-container">
+
+                  <div id="search-modal-header">
+
+                      <input type="text" placeholder="Search Nike.com" id="search-modal-input">
+                      <span id="search-modal-clear">Clear</span>
+                      <button id="search-modal-close">
+                        &#10005;
+                      </button>
+
+
+                  </div>
+
+
+ </div>
+
+        <div class="mobile-modal hidden-panel" id="mobile-mega-menu-container">
+
+                  <div class="hidden-panel" id="mega-close-container">
+                      <button id="mega-close" data-role="none">
+                          <div class="icon-bar"></div>
+                          <div class="icon-bar" id="middle-bar-mega"></div>
+                          <div class="icon-bar"></div>
+                      </button>
+                  </div>
+
+                  <!--Main Navigation Panel-->
+                  <div class="hidden-panel nav-panel" id="navitagion-panel-container"> 
+                      <ul>
+                        <li class="nav-item" id="join-mobile">Join/Log In To Nike+ Account</li>
+                        <li class="nav-item" id="nav-men" data-link="#men-panel-container">Men<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item" id="nav-women" data-link="#women-panel-container">Women<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item" id="nav-boys" data-link="#boys-panel-container">Boys<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item" id="nav-girls" data-link="#girls-panel-container">Girls<i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+                        <li class="nav-item" id="nav-customise">Customise</li>
+                        <li class="nav-item" id="nav-nikePlus" data-link="#nikePlus-panel-container">Nike+<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item nav-item-catogory">Shop By Brand</li>
+                        <li class="nav-item" id="nav-sportsware">Nike Sportswear</li>
+                        <li class="nav-item" id="nav-jordan" data-link="#jordan-panel-container">Jordan<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item nav-item-catogory" data-link="#support-panel-container">Support</li>
+                        <li class="nav-item" id="nav-help" data-link="#help-panel-container">Get Help<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item" id="nav-contact">Contact Us</li>
+                        <li class="nav-item"  id="nav-about" data-link="#about-panel-container">About Nike<i class="fa fa-chevron-right"></i></li>
+                      </ul>
+                  </div>
+
+                  <!--Sub Navigation Panels-->
+                  <div class="hidden-panel nav-panel" id="men-panel-container"> 
+                      <ul>
+                        <span class="nav-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Men</li></span>
+                        <li class="nav-sub-item" id="nav-men-new" data-link="#men-whatsNew-panel-container">What's New<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-men-shoes" data-link="#men-shoes-panel-container">Shoes<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-men-clothing" data-link="#men-clothing-panel-container">Clothing<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-men-customise" data-link="#men-nikeId-panel-container">Customise with NIKEiD<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-men-bySport" data-link="#men-sport-panel-container">Shop By Sport<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-men-byBrand" data-link="#men-brand-panel-container">Shop By Brand<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-men-sale">Sale</li>
+                        <li class="nav-sub-item" id="nav-men-homepage">Men's Homepage</li>
+                      </ul>
+                  </div>
+
+                  <div class="hidden-panel nav-panel" id="women-panel-container"> 
+                      <ul>
+                        <span class="nav-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Women</li></span>
+                        <li class="nav-sub-item" id="nav-women-new" data-link="#women-whatsNew-panel-container">What's New<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-women-shoes" data-link="#women-shoes-panel-container">Shoes<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-women-clothing" data-link="#women-clothing-panel-container">Clothing<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-women-customise" data-link="#women-nikeId-panel-container">Customise with NIKEiD<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-women-bySport" data-link="#women-sport-panel-container">Shop By Sport<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-women-byBrand" data-link="#women-brand-panel-container">Shop By Brand<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-women-sale">Sale</li>
+                        <li class="nav-sub-item" id="nav-women-homepage">Women's Homepage</li>
+                      </ul>
+                  </div>
+
+                  <div class="hidden-panel nav-panel" id="boys-panel-container"> 
+                      <ul>
+                        <span class="nav-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Boys</li></span>
+                        <li class="nav-sub-item" id="nav-boys-new" data-link="#whatsNew-panel-container">What's New<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-boys-size" data-link="#boys-size-panel-container">Shop By Size<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-boys-rightSize">Find the Right Size</i></li>
+                        <li class="nav-sub-item" id="nav-boys-shoes" data-link="#boys-shoes-panel-container">Shoes<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-boys-clothing" data-link="#boys-clothing-panel-container">Clothing<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-boys-customise" data-link="#boys-nikeId-panel-container">Customise with NIKEiD<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-boys-bySport" data-link="#boys-sport-panel-container">Shop By Sport<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-boys-sale">Sale</li>
+                        <li class="nav-sub-item" id="nav-mboys-homepage">Boy's Homepage</li>
+                      </ul>
+                  </div>
+
+                  <div class="hidden-panel nav-panel" id="girls-panel-container"> 
+                    <ul>
+                        <span class="nav-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Girls</li></span>
+                        <li class="nav-sub-item" id="nav-girls-new" data-link="#whatsNew-panel-container">What's New<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-girls-size" data-link="#girls-size-panel-container">Shop By Size<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-girls-rightSize">Find the Right Size</i></li>
+                        <li class="nav-sub-item" id="nav-girls-shoes" data-link="#girls-shoes-panel-container">Shoes<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-girls-clothing" data-link="#girls-clothing-panel-container">Clothing<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-girls-customise" data-link="#girls-nikeId-panel-container">Customise with NIKEiD<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-girls-bySport" data-link="#girls-sport-panel-container">Shop By Sport<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-girls-sale">Sale</li>
+                        <li class="nav-sub-item" id="nav-girls-homepage">Girls' Homepage</li>
+                    </ul>
+                  </div>
+
+                  <div class="hidden-panel nav-panel" id="nikePlus-panel-container"> 
+                    <ul>
+                        <span class="nav-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Nike+</li></span>
+                        <li class="nav-sub-item" id="nav-nikePlus-track">Track You Activity</li>
+                        <li class="nav-sub-item" id="nav-nikePlus-coaching">Get Coaching</li>
+                        <li class="nav-sub-item" id="nav-nikePlus-apps" data-link="#nikePlus-apps-panel-container">Nike+ Apps<i class="fa fa-chevron-right"></i></li>
+                    </ul>
+                  </div>
+
+                  <div class="hidden-panel nav-panel" id="jordan-panel-container"> 
+                    <ul>
+                        <span class="nav-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Jordan</li></span>
+                        <li class="nav-sub-item" id="nav-jordan-new" data-link="#jordan-whatsNew-panel-container">What's New<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-jordan-men" data-link="#jordan-men-panel-container">Men<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-jordan-boys" data-link="#jordan-boys-panel-container">Boys<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-sub-item" id="nav-jordan-girls" data-link="#jordan-girls-panel-container">Girls<i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+                        <li class="nav-sub-item" id="nav-jordan-homepage">Jordan Homepage</li>
+                   </ul>
+                </div>
+
+                  <div class="hidden-panel nav-panel" id="help-panel-container"> 
+                    <ul>
+                        <span class="nav-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Get Help</li></span>
+                        <li class="nav-sub-item">Order Status</li>
+                        <li class="nav-sub-item">Shipping and Delivery</li>
+                        <li class="nav-sub-item">Returns</li>
+                        <li class="nav-sub-item">Apps and Device Support</li>
+                        <li class="nav-sub-item">Contact Us</li>
+                        <li class="nav-sub-item">View All</li>
+                   </ul>
+                </div>  
+
+                  <div class="hidden-panel nav-panel" id="about-panel-container"> 
+                    <ul>
+                        <span class="nav-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">About Nike</li></span>
+                        <li class="nav-sub-item">News</li>
+                        <li class="nav-sub-item">About Nike</li>
+                        <li class="nav-sub-item">Careers</li>
+                        <li class="nav-sub-item">Investors</li>
+                    </ul>
+                  </div>
+
+
+                <!--Catagory Navigation Panels-->
+
+                <!--Men-->
+
+                <div class="hidden-panel nav-panel" id="men-whatsNew-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">What's New</li></span>
+                        <li class="nav-subcatagory-item">New Release</li>
+                        <li class="nav-subcatagory-item">Launch Calander</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="men-shoes-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shoes</li></span>
+                        <li class="nav-subcatagory-item">All Men's Shoes</li>
+                        <li class="nav-subcatagory-item">Lifestyle</li>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Skatebording</li>
+                        <li class="nav-subcatagory-item">Tennis</li>
+                        <li class="nav-subcatagory-item">Customise with NIKEiD</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="men-clothing-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Clothing</li></span>
+                        <li class="nav-subcatagory-item">All Men's Clothing</li>
+                        <li class="nav-subcatagory-item">Tops &amp; T-Shirts</li>
+                        <li class="nav-subcatagory-item">Polos</li>
+                        <li class="nav-subcatagory-item">Hoodies &amp; Sweatshirts</li>
+                        <li class="nav-subcatagory-item">Jackets &amp; Gilets</li>
+                        <li class="nav-subcatagory-item">Trousers &amp; Tights</li>
+                        <li class="nav-subcatagory-item">Compression &amp; Nike pro</li>
+                        <li class="nav-subcatagory-item">Kits &amp; Jerseys</li>
+                        <li class="nav-subcatagory-item">Shorts</li>
+                        <li class="nav-subcatagory-item">Socks</li>
+                        <li class="nav-subcatagory-item">Accessorises &amp; Equipment</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="men-nikeId-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Customise with NIKEiD</li></span>
+                        <li class="nav-subcatagory-item">All Men's NIKEiD</li>
+                        <li class="nav-subcatagory-item">New Releases</li>
+                        <li class="nav-subcatagory-item">Lifestyle</li>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                        <li class="nav-subcatagory-item">Skatebording</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="men-sport-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shop By Sport</li></span>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Skatebording</li>
+                        <li class="nav-subcatagory-item">Tennis</li>
+                        <li class="nav-subcatagory-item">American Football</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="men-brand-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shop By Brand</li></span>
+                        <li class="nav-subcatagory-item">Nike Sportswear</li>
+                        <li class="nav-subcatagory-item">Jordan</li>
+                    </ul>
+                </div>
+
+
+                <!--Women-->
+
+                <div class="hidden-panel nav-panel" id="women-whatsNew-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">What's New</li></span>
+                        <li class="nav-subcatagory-item">New Release</li>
+                        <li class="nav-subcatagory-item">Launch Calander</li>
+                        <li class="nav-subcatagory-item">Sports Bra Shop</li>
+                        <li class="nav-subcatagory-item">Trousers and Tights Shop</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="women-shoes-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shoes</li></span>
+                        <li class="nav-subcatagory-item">All Womens Shoes</li>
+                        <li class="nav-subcatagory-item">Lifestyle</li>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Tennis</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                        <li class="nav-subcatagory-item">Skatebording</li>
+                        <li class="nav-subcatagory-item">Customise with NIKEiD</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="women-clothing-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Clothing</li></span>
+                        <li class="nav-subcatagory-item">All Women's Clothing</li>
+                        <li class="nav-subcatagory-item">Sports Bras</li>
+                        <li class="nav-subcatagory-item">Tops &amp; T-Shirts</li>
+                        <li class="nav-subcatagory-item">Compression &amp; Nike pro</li>
+                        <li class="nav-subcatagory-item">Hoodies &amp; Sweatshirts</li>
+                        <li class="nav-subcatagory-item">Jackets &amp; Gilets</li>
+                        <li class="nav-subcatagory-item">Trousers &amp; Tights</li>      
+                        <li class="nav-subcatagory-item">Skirts &amp; Dresses</li>
+                        <li class="nav-subcatagory-item">Shorts</li>
+                        <li class="nav-subcatagory-item">Socks</li>
+                        <li class="nav-subcatagory-item">Accessorises &amp; Equipment</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="women-nikeId-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Customise with NIKEiD</li></span>
+                        <li class="nav-subcatagory-item">All Women's NIKEiD</li>
+                        <li class="nav-subcatagory-item">New Releases</li>
+                        <li class="nav-subcatagory-item">Lifestyle</li>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Football</li>   
+                        <li class="nav-subcatagory-item">Basketball</li>
+                        <li class="nav-subcatagory-item">Skatebording</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="women-sport-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shop By Sport</li></span>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Tennis</li>         
+                        <li class="nav-subcatagory-item">Basketball</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Skatebording</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="women-brand-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shop By Brand</li></span>
+                        <li class="nav-subcatagory-item">Nike Sportswear</li>
+                    </ul>
+                </div>
+
+
+                <!--Boys-->
+
+                <div class="hidden-panel nav-panel" id="boys-size-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shop By Size</li></span>
+                        <li class="nav-subcatagory-item">All Boys' Sizes</li>
+                        <li class="nav-subcatagory-item nav-item-catogory">Shoes</li>
+                        <li class="nav-subcatagory-item">Baby &amp; Toddler (17 - 27)</li>
+                        <li class="nav-subcatagory-item">Younger Kids (27.5 - 35)</li>
+                        <li class="nav-subcatagory-item">Older Kids (35.5 - 40)</li>
+                        <li class="nav-subcatagory-item nav-item-catogory">Clothing</li>
+                        <li class="nav-subcatagory-item">Baby &amp; Toddler (0 - 36 M)</li>
+                        <li class="nav-subcatagory-item">Younger Kids (96 - 128 CM)</li>
+                        <li class="nav-subcatagory-item">Older Kids (122 - 170 CM)</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="boys-shoes-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shoes</li></span>
+                        <li class="nav-subcatagory-item">All Boys' Shoes</li>
+                        <li class="nav-subcatagory-item">Lifestyle</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                        <li class="nav-subcatagory-item">Skatebording</li>
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Customise with NIKEiD</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="boys-clothing-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Clothing</li></span>
+                        <li class="nav-subcatagory-item">All Boys' Clothing</li>
+                        <li class="nav-subcatagory-item">Compression &amp; Nike pro</li>
+                        <li class="nav-subcatagory-item">Tops &amp; T-Shirts</li>
+                        <li class="nav-subcatagory-item">Kits &amp; Jerseys</li>
+                        <li class="nav-subcatagory-item">Hoodies &amp; Sweatshirts</li>
+                        <li class="nav-subcatagory-item">Jackets &amp; Gilets</li>
+                        <li class="nav-subcatagory-item">Trousers &amp; Tights</li>
+                        <li class="nav-subcatagory-item">Shorts</li>
+                        <li class="nav-subcatagory-item">Socks</li>
+                        <li class="nav-subcatagory-item">Accessorises &amp; Equipment</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="boys-nikeId-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Customise with NIKEiD</li></span>
+                        <li class="nav-subcatagory-item">All Boys' NIKEiD</li>
+                        <li class="nav-subcatagory-item">Lifestyle</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="boys-sport-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shop By Sport</li></span>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Running</li>        
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                        <li class="nav-subcatagory-item">Skatebording</li>
+                    </ul>
+                </div>
+
+
+                <!--Girls-->
+
+                <div class="hidden-panel nav-panel" id="girls-size-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shop By Size</li></span>
+                        <li class="nav-subcatagory-item">All Girls' Sizes</li>
+                        <li class="nav-subcatagory-item nav-item-catogory">Shoes</li>
+                        <li class="nav-subcatagory-item">Baby &amp; Toddler (17 - 27)</li>
+                        <li class="nav-subcatagory-item">Younger Kids (27.5 - 35)</li>
+                        <li class="nav-subcatagory-item">Older Kids (35.5 - 40)</li>
+                        <li class="nav-subcatagory-item nav-item-catogory">Clothing</li>
+                        <li class="nav-subcatagory-item">Baby &amp; Toddler (0 - 36 M)</li>
+                        <li class="nav-subcatagory-item">Younger Kids (96 - 128 CM)</li>
+                        <li class="nav-subcatagory-item">Older Kids (122 - 166 CM)</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="girls-shoes-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shoes</li></span>
+                        <li class="nav-subcatagory-item">All Girls' Shoes</li>
+                        <li class="nav-subcatagory-item">Lifestyle</li>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Customise with NIKEiD</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="girls-clothing-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Clothing</li></span>
+                        <li class="nav-subcatagory-item">All Girls' Clothing</li>
+                        <li class="nav-subcatagory-item">Sports Bras</li>
+                        <li class="nav-subcatagory-item">Compression &amp; Nike pro</li>
+                        <li class="nav-subcatagory-item">Tops &amp; T-Shirts</li>
+                        <li class="nav-subcatagory-item">Hoodies &amp; Sweatshirts</li>                 
+                        <li class="nav-subcatagory-item">Jackets &amp; Gilets</li>
+                        <li class="nav-subcatagory-item">Trousers &amp; Tights</li>
+                        <li class="nav-subcatagory-item">Shorts</li>
+                        <li class="nav-subcatagory-item">Socks</li>
+                        <li class="nav-subcatagory-item">Accessorises &amp; Equipment</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="girls-nikeId-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Customise with NIKEiD</li></span>
+                        <li class="nav-subcatagory-item">All Girls' NIKEiD</li>
+                        <li class="nav-subcatagory-item">Lifestyle</li>
+                        <li class="nav-subcatagory-item">Running</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="girls-sport-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Shop By Sport</li></span>
+                        <li class="nav-subcatagory-item">Running</li>        
+                        <li class="nav-subcatagory-item">Gym &amp; Training</li>
+                        <li class="nav-subcatagory-item">Football</li>
+                        <li class="nav-subcatagory-item">Basketball</li>
+                    </ul>
+                </div>
+
+
+                <!--Nike+-->
+
+                <div class="hidden-panel nav-panel" id="nikePlus-apps-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Nike+ Apps</li></span>
+                        <li class="nav-subcatagory-item">Nike+ Running</li>
+                        <li class="nav-subcatagory-item">Nike+ Training Club</li>
+                        <li class="nav-subcatagory-item">Nike Football</li>
+                        <li class="nav-subcatagory-item">Skatebording</li>
+                    </ul>
+                </div>
+
+
+                <!--Jordan-->
+
+                <div class="hidden-panel nav-panel" id="jordan-whatsNew-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">What's New</li></span>
+                        <li class="nav-subcatagory-item">New Releases</li>
+                        <li class="nav-subcatagory-item">Launch Calander</li>
+                        <li class="nav-subcatagory-item">Retro Collection</li>
+                        <li class="nav-subcatagory-item">Lifestyle</li>
+                        <li class="nav-subcatagory-item">Performance</li>
+                        <li class="nav-subcatagory-item">Training</li>
+                        <li class="nav-subcatagory-item">NIKEiD</li>
+                        <li class="nav-subcatagory-item">Shop All Jordan</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="jordan-men-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Men</li></span>
+                        <li class="nav-subcatagory-item">All Mens' Jordan</li>
+                        <li class="nav-subcatagory-item">Compression &amp; Nike pro</li>
+                        <li class="nav-subcatagory-item">Tops &amp; T-Shirts</li>
+                        <li class="nav-subcatagory-item">Hoodies &amp; Sweatshirts</li>
+                        <li class="nav-subcatagory-item">Jackets &amp; Gilets</li>
+                        <li class="nav-subcatagory-item">Trousers &amp; Tights</li>
+                        <li class="nav-subcatagory-item">Shorts</li>
+                        <li class="nav-subcatagory-item">Accessorises &amp; Equipment</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="jordan-boys-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Boys</li></span>
+                        <li class="nav-subcatagory-item">All Boys' Jordan</li>
+                    </ul>
+                </div>
+
+                <div class="hidden-panel nav-panel" id="jordan-girls-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">Girls</li></span>
+                        <li class="nav-subcatagory-item">All Girls' Jordan</li>
+                    </ul>
+                </div>
+
+
+                <!--Shared-->
+
+                <div class="hidden-panel nav-panel" id="whatsNew-panel-container"> 
+                    <ul>
+                        <span class="nav-catagory-back"><i class="fa fa-chevron-left"></i><li class="nav-item-back">What's New</li></span>
+                        <li class="nav-subcatagory-item">New Release</li>
+                        <li class="nav-subcatagory-item">Best Sellers</li>
+                        <li class="nav-subcatagory-item">Launch Calander</li>
+                        <li class="nav-subcatagory-item">Find the Right Size</li>
+                    </ul>
+                </div>
+
+
+
+
+
+
+              </div> 
+
+        <div id="slider-bar">
+              <div id="slider-assets-wrapper">
+                  <i class="fa fa-chevron-left" id="slider-arrow-left"></i>
+                  <div id="slider-window">
+                      <div id="slider-container">
+
+                          <div class="slider-content" id="slide1">
+                              <div class="slider-content" id="signup">
+                                  <div class="signup-wrapper">
+                                      <div class="slider-content-headline">
+                                          OUR LATEST AND GREATEST, IN YOUR INBOX
+                                      </div>
+                                      <div class="slider-content-details">
+                                          <a href="#">Sign Up</a>
+                                      </div>
+                                  </div>
+                              </div> 
+                          </div>
+
+                          <div class="slider-content" id="slide2">
+                            <div class="slider-content" id="delivery">
+                              <div class="delivery-wrapper">
+                                  <div class="slider-content-headline">
+                                      PREMIUM INTERNATIONAL DELIVERY TO YOU
+                                  </div>
+                                  <div class="slider-content-secoundry">
+                                      <p>Fast Shipping. Hassle-Free Customs.</p>
+                                      <p>Free Returns For Members.</p>
+                                  </div>
+                                  <div class="slider-content-details">
+                                      <a href="#">See details</a>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="slider-content" id="slide3">
+                              <div class="slider-content" id="signup">
+                                  <div class="signup-wrapper">
+                                      <div class="slider-content-headline">
+                                          OUR LATEST AND GREATEST, IN YOUR INBOX
+                                      </div>
+                                      <div class="slider-content-details">
+                                          <a href="#">Sign Up</a>
+                                      </div>
+                                  </div>
+                              </div> 
+                          </div>
+
+
+                          <div class="slider-content" id="delivery">
+                              <div class="delivery-wrapper">
+                                  <div class="slider-content-headline">
+                                      PREMIUM INTERNATIONAL DELIVERY TO YOU
+                                  </div>
+                                  <div class="slider-content-secoundry">
+                                      <p>Fast Shipping. Hassle-Free Customs.</p>
+                                      <p>Free Returns For Members.</p>
+                                  </div>
+                                  <div class="slider-content-details">
+                                      <a href="#">See details</a>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="slider-content" id="signup">
+                              <div class="signup-wrapper">
+                                  <div class="slider-content-headline">
+                                      OUR LATEST AND GREATEST, IN YOUR INBOX
+                                  </div>
+                                  <div class="slider-content-details">
+                                      <a href="#">Sign Up</a>
+                                  </div>
+                              </div>
+                          </div>  
+
+                      </div>
+                  </div>
+                  <i class="fa fa-chevron-right" id="slider-arrow-right"></i>  
+              </div>
+</div>
+
+        <div id="hero-wrapper">
+            <div id="hero-image-container">
+                <img id="hero-image-desktop" src="assets/images/heroImage.jpg"></img>
+                <img id="hero-image-mobile" src="assets/images/heroImageMobile.jpg"></img>
+            </div>
+            <div id="hero-text-container">
+                <p class="hero-headline">
+                    STILL STABLE
+                    <br class="break">
+                    AFTER ALL
+                </p>
+                <p class="hero-headline hero-text-bottom">THESE YEARS.</p>
+                <p class="hero-supporting-text">
+                    Nike Air Zoom Structure 20.
+                    <br class="break">
+                    The speed to get going.
+                    <br class="break">
+                    The stability to stay gone.
+                </p>
+
+                <div id="hero-button-wrapper">
+                    <div id="hero-button-shop-now-wrapper">
+                         <div class="hero-button" id="hero-shop-now">
+                            SHOP NOW <i class="fa fa-chevron-right" id="shop-now-arrow"></i>
+                        </div>
+                        <div class="hero-button hero-sub-button" id="button-women">
+                            SHOP WOMEN'S
+                        </div>
+                        <div class="hero-button hero-sub-button" id="button-men">
+                            SHOP MEN'S
+                        </div>
+                    </div>
+                    <div class="hero-button" id="hero-learn-more">
+                        LEARN MORE
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div id="secoundry-content-wrapper">
+            
+            <div id="secoundry-left-wrapper">
+                <div id="rostarr-wrapper" class="secoundry-wrapper">
+                    <img src="assets/images/rostarr.jpg" class="secoundry-image-desktop">
+                    <img src="assets/images/rostarrMobile.jpg" class="secoundry-image-mobile">
+                    <div id="secoundry-rostarr-text">
+                        <p class="secoundry-title">NIKE X ROSTARR</p>
+                        <p class="secoundry-text">
+                            A legendary artist.
+                            <br>
+                            Running gear as blank canvas.
+                        </p>
+                        <p class="secoundry-link">Shop The Collection</p>
+                    </div>
+                </div>
+                <div id="shoes-wrapper" class="secoundry-wrapper">
+                    <img src="assets/images/shoes.jpg" class="secoundry-image-desktop">
+                    <img src="assets/images/shoesMobile.jpg" class="secoundry-image-mobile">
+                    <div id="secoundry-shoes-text">
+                        <p class="secoundry-title">MAKE A STATEMENT WITH NIKEiD</p>
+                        <p class="secoundry-text">
+                            Personalise your running shoe with
+                            <br>
+                            a goal, race, city or motivational
+                            <br>
+                            message in big, bold text.
+                        </p>
+                        <p class="secoundry-link">Customise Shield iD Collection</p>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div id="secoundry-right-wrapper">
+                
+                <div id="guide-wrapper" class="secoundry-wrapper">
+                    <img src="assets/images/guide.jpg" class="secoundry-image-desktop">
+                    <img src="assets/images/guideMobile.jpg" class="secoundry-image-mobile">
+                    <div id="secoundry-guide-text">
+                        <p class="secoundry-title">NRC GEAR UP GUIDE</p>
+                        <p class="secoundry-text">
+                            Everything you need
+                            <br>
+                           to get after your goals,
+                            <br>
+                            even in the heat.
+                        </p>
+                        <p class="secoundry-link" id="secoundry-shop-men">Shop Men's</p>
+                        <p class="secoundry-link" id="secoundry-shop-women">Shop Women's</p>
+                    </div>
+                    
+                </div>
+                <div id="kid-wrapper" class="secoundry-wrapper">
+                    <img src="assets/images/kidsGear.jpg"class="secoundry-image-desktop">
+                    <img src="assets/images/kidsGearMobile.jpg"class="secoundry-image-mobile">
+                    <div id="secoundry-kids-text">
+                        <p class="secoundry-title">KIDS GEAR UP</p>
+                        <p class="secoundry-text">
+                            All the running essentials
+                            <br>
+                           for your young athlete
+                            <br>
+                            this season.
+                        </p>
+                        <p class="secoundry-link">Shop Now</p>
+                    </div>
+                </div>
+            
+            </div>
+        
+        </div>
+
+        <div id="train-with-us-wrapper">
+            <img src="assets/images/trainWithUs.jpg" class="secoundry-image-desktop">
+            <img src="assets/images/trainWithUsMobile.jpg" class="secoundry-image-mobile">
+            <div id="secoundry-train-text">
+                        <p class="secoundry-title">AUCKLAND, COME TRAIN WITH US</p>
+                        <p class="secoundry-text">
+                            Register now for Nike+ Training Club.
+                        </p>
+                        <p class="secoundry-link">Learn More</p>
+                    </div>
+        </div>
+
+        <div class="nav-panel-footer" id="navitagion-panel-container-footer"> 
+                      <ul>
+                        <li class="nav-item-footer" id="nav-men" data-link="#men-panel-container">Men<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item-footer" id="nav-women" data-link="#women-panel-container">Women<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item-footer" id="nav-boys" data-link="#boys-panel-container">Boys<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item-footer" id="nav-girls" data-link="#girls-panel-container">Girls<i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+                        <li class="nav-item" id="nav-customise">Customise</li>
+                        <li class="nav-item-footer" id="nav-nikePlus" data-link="#nikePlus-panel-container">Nike+<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item nav-item-catogory">Shop By Brand</li>
+                        <li class="nav-item" id="nav-sportsware">Nike Sportswear</li>
+                        <li class="nav-item-footer" id="nav-jordan" data-link="#jordan-panel-container">Jordan<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item nav-item-catogory" data-link="#support-panel-container">Support</li>
+                        <li class="nav-item-footer" id="nav-help" data-link="#help-panel-container">Get Help<i class="fa fa-chevron-right"></i></li>
+                        <li class="nav-item" id="nav-contact">Contact Us</li>
+                        <li class="nav-item-footer"  id="nav-about" data-link="#about-panel-container">About Nike<i class="fa fa-chevron-right"></i></li>
+                      </ul>
+                  </div>
+
+        <footer id="mobile-footer-wrapper">
+            <div id="mobile-footer">
+                <ul>
+                    <li>ORDERS</li>
+                    <li>STORES</li>
+                    <li>HELP</li>
+                </ul>
+            </div>
+        </footer>
+
+        <footer id="footer-wrapper">
+            <div id="footer-content-container">
+                <div id="footer-links-container">
+                    <ul class="column">
+                        <li class="footer-heading">FIND A STORE</li>
+                        <li class="footer-heading">SIGN UP FOR EMAIL</li>
+                        <li class="footer-heading">JOIN NIKE+</li>
+                    </ul>
+                    
+                    <ul class="column">
+                        <li class="footer-heading-bottom">GET HELP</li>
+                        <li class="footer-text">Order Status</li>
+                        <li class="footer-text">Shipping &amp; Delivery</li>
+                        <li class="footer-text">Returns</li>
+                        <li class="footer-text">Payment Options</li>
+                        <li class="footer-text">Contact Us</li>
+                    </ul>
+                    
+                    <ul class="column">
+                        <li class="footer-heading">NEWS</li>
+                        <li class="footer-heading-bottom">ABOUT NIKE</li>
+                        <li class="footer-text">Careers</li>
+                        <li class="footer-text">Investors</li>
+                    </ul>
+                    
+                     <ul id="column-social">
+                        <li class="footer-heading">SOCIAL</li>
+                         <li id="social-icons-container">
+                            <div class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                            <div class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                            <div class="social-icon"><i class="fa fa-youtube" aria-hidden="true"></i></div>
+                            <div class="social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                         </li>
+                    </ul>  
+                </div>
+                <div id="legal-footer">
+                    <div id="legal-left">
+                        <img src="assets/images/nz_sml.png">
+                        <span id="new-zealand-text" class="legal-text">New Zealand</span><span class="legal-text">&copy; 2016 Nike, Inc. All Rights Reserved</span>
+                    </div>
+                    
+                    <div id="legal-right">
+                        
+                        <span class="legal-text">Guides</span> <span class="legal-text">Terms of Use</span> <span class="legal-text">Privacy Policy</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+    </div><!--End of Page-->
+
+      
+      
+      
+
+
+
+      
+      
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+            
+    <!-- FontAwesome CDN -->  
+    <script src="https://use.fontawesome.com/08c4c69269.js"></script>
+   
+    <!--My script-->
+    <script type="text/javascript" src="scripts/hammer.min.js"></script>
+
+    <script type="text/javascript" src="scripts/NikeScript.js"></script>
+
+    
+  </body>
+</html>
